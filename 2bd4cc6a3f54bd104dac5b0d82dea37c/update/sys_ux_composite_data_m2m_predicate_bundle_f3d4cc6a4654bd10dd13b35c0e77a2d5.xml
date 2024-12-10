@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="Event Reg Portal Search EVAM">fbd4cc6a5254bd10d10d7ca0e156ffd6</dataset>
+        <order/>
+        <predicate_bundle display_value="Event Registration Search Bundle">7fd4cc6a1054bd10e0fa0555eb4ac9d4</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:18:44</sys_created_on>
+        <sys_id>f3d4cc6a4654bd10dd13b35c0e77a2d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_f3d4cc6a4654bd10dd13b35c0e77a2d5</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:18:44</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>

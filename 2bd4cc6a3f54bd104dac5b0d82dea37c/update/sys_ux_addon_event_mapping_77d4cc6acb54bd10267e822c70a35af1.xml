@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <controller/>
+        <description/>
+        <name>Route to Event</name>
+        <parent_macroponent display_value="All events">37d4cc6a6f54bd106b50cc9878f8e7f2</parent_macroponent>
+        <source_component/>
+        <source_da display_value="navigation">d46f400473211010c342d5fdbdf6a7cf</source_da>
+        <source_element_id>data_set_1</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>77d4cc6acb54bd10267e822c70a35af1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Route to Event</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_77d4cc6acb54bd10267e822c70a35af1</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:07</sys_updated_on>
+        <target_event display_value="ER_clickaction">3bd4cc6ad654bd104fdb39f17b5243f1</target_event>
+        <target_payload_mapping>{
+  "type": "MAP_CONTAINER",
+  "container": {
+    "sysId": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "sysId"
+        ]
+      }
+    },
+    "table": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "table"
+        ]
+      }
+    }
+  }
+}</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+</record_update>

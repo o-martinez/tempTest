@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_action_layout_item">
+    <sys_ux_m2m_action_layout_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <display_type/>
+        <icon/>
+        <order/>
+        <sys_class_name>sys_ux_m2m_action_layout_item</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:35</sys_created_on>
+        <sys_id>bfd4cc6a0754bd1092496cca73168ab0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_ux_m2m_action_layout_item_bfd4cc6a0754bd1092496cca73168ab0</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:35</sys_updated_on>
+        <table>x_snc_marketing_0_event</table>
+        <ux_form_action_layout display_value="Event Registration Form Layout">bfd4cc6ab354bd1040c3558c074c20b3</ux_form_action_layout>
+        <ux_form_action_layout_item display_value="Save">77d4cc6a7654bd10bb18655293bddeb3</ux_form_action_layout_item>
+        <variant/>
+    </sys_ux_m2m_action_layout_item>
+</record_update>

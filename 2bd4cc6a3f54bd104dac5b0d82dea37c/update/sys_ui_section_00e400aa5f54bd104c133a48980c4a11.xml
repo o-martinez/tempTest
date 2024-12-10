@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="00e400aa5f54bd104c133a48980c4a11" sys_domain="global" table="x_snc_marketing_0_event" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>organizer</element>
+            <position>0</position>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:18:34</sys_created_on>
+            <sys_id>37d4cc6ab654bd103e1ac3d949c62ff5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_marketing_0_event" sys_domain="global" view="06e7daec472112109d58558b416d4325">00e400aa5f54bd104c133a48980c4a11</sys_ui_section>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:18:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>event_name</element>
+            <position>1</position>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:18:34</sys_created_on>
+            <sys_id>f7d4cc6a5d54bd10f1550e36365d7cf5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_marketing_0_event" sys_domain="global" view="06e7daec472112109d58558b416d4325">00e400aa5f54bd104c133a48980c4a11</sys_ui_section>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:18:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>purpose</element>
+            <position>2</position>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:18:34</sys_created_on>
+            <sys_id>bfd4cc6afd54bd108c11d58be9e10bf4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_marketing_0_event" sys_domain="global" view="06e7daec472112109d58558b416d4325">00e400aa5f54bd104c133a48980c4a11</sys_ui_section>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:18:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>3</position>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:18:34</sys_created_on>
+            <sys_id>ffd4cc6ad154bd10241cf4d3943b43f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_marketing_0_event" sys_domain="global" view="06e7daec472112109d58558b416d4325">00e400aa5f54bd104c133a48980c4a11</sys_ui_section>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:18:34</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_from</element>
+            <position>4</position>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:18:34</sys_created_on>
+            <sys_id>73d4cc6af154bd107399d33cad53edf5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_marketing_0_event" sys_domain="global" view="06e7daec472112109d58558b416d4325">00e400aa5f54bd104c133a48980c4a11</sys_ui_section>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:18:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>event_reminder_date</element>
+            <position>5</position>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:18:34</sys_created_on>
+            <sys_id>b3d4cc6aa154bd10fa1f40aaef0c7cf4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_marketing_0_event" sys_domain="global" view="06e7daec472112109d58558b416d4325">00e400aa5f54bd104c133a48980c4a11</sys_ui_section>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:18:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:18:34</sys_created_on>
+            <sys_id>bbd4cc6a1054bd108751c811be124ff2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_marketing_0_event" sys_domain="global" view="06e7daec472112109d58558b416d4325">00e400aa5f54bd104c133a48980c4a11</sys_ui_section>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:18:34</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_to</element>
+            <position>7</position>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:18:34</sys_created_on>
+            <sys_id>33d4cc6a1154bd10f33bd0781b5ecaf3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_marketing_0_event" sys_domain="global" view="06e7daec472112109d58558b416d4325">00e400aa5f54bd104c133a48980c4a11</sys_ui_section>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:18:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>event_photo</element>
+            <position>8</position>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:18:34</sys_created_on>
+            <sys_id>b7d4cc6ad854bd10d20c14e57af1eef3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_marketing_0_event" sys_domain="global" view="06e7daec472112109d58558b416d4325">00e400aa5f54bd104c133a48980c4a11</sys_ui_section>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:18:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>9</position>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:18:34</sys_created_on>
+            <sys_id>7bd4cc6a5154bd10430352fb3db9d6f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_marketing_0_event" sys_domain="global" view="06e7daec472112109d58558b416d4325">00e400aa5f54bd104c133a48980c4a11</sys_ui_section>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:18:34</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>10</position>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:18:34</sys_created_on>
+            <sys_id>7fd4cc6a4a54bd10b789b0f2b086abf2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_marketing_0_event" sys_domain="global" view="06e7daec472112109d58558b416d4325">00e400aa5f54bd104c133a48980c4a11</sys_ui_section>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:18:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_marketing_0_event</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:18:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>00e400aa5f54bd104c133a48980c4a11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_marketing_0_event</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+            <sys_update_name>sys_ui_section_00e400aa5f54bd104c133a48980c4a11</sys_update_name>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:18:34</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">06e7daec472112109d58558b416d4325</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

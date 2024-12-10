@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item">
+    <sys_sg_item_stream_m2m_master_item action="INSERT_OR_UPDATE">
+        <item_stream display_value="Test2 on Incident table Item Stream">d4e400aa3a54bd1038f89bf878df9b8e</item_stream>
+        <master_item display_value="Test2 on Incident table Main Item">54e400aa5d54bd10266650fbb6886f8d</master_item>
+        <sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:34</sys_created_on>
+        <sys_id>9ce400aaa354bd104b1b88c7af424a8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_master_item_9ce400aaa354bd104b1b88c7af424a8d</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:34</sys_updated_on>
+    </sys_sg_item_stream_m2m_master_item>
+</record_update>

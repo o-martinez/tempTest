@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Attendee activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_snc_marketing_0_attendee_activity.fields</name>
+        <read_roles/>
+        <suffix>x_snc_event_reg</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:27</sys_created_on>
+        <sys_id>34e400aad554bd106efe72690018b1f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_snc_marketing_0_attendee_activity.fields</sys_name>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_properties_34e400aad554bd106efe72690018b1f1</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:27</sys_updated_on>
+        <type>string</type>
+        <value>attendee_status,date_submitted,sys_updated_on,sys_updated_by,*Email*,*Attachments*,event_name</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=34e400aad554bd106efe72690018b1f1"/>
+</record_update>

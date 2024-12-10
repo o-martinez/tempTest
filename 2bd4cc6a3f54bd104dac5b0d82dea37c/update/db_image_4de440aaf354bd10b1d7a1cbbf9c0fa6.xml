@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format>png</format>
+        <height>32</height>
+        <image>85e440aa2654bd10a7a29ffcf7ba6ba7</image>
+        <name>x_snc_marketing_0.circle-x-red.png</name>
+        <size_bytes>964</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:51</sys_created_on>
+        <sys_id>4de440aaf354bd10b1d7a1cbbf9c0fa6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_marketing_0.circle-x-red.png</sys_name>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>db_image_4de440aaf354bd10b1d7a1cbbf9c0fa6</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:51</sys_updated_on>
+        <thumbnail/>
+        <width>32</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#c83d37</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>image</file_name>
+        <hash>c46f94f845edda1af2bb82f99804cb69d063a4c75cf4e9e3ea22840dcc065dfd</hash>
+        <image_height>32</image_height>
+        <image_width>32</image_width>
+        <size_bytes>964</size_bytes>
+        <size_compressed>987</size_compressed>
+        <state>available</state>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:51</sys_created_on>
+        <sys_id>85e440aa2654bd10a7a29ffcf7ba6ba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:51</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>4de440aaf354bd10b1d7a1cbbf9c0fa6</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="85e440aa2654bd10a7a29ffcf7ba6ba7">85e440aa2654bd10a7a29ffcf7ba6ba7</sys_attachment>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:51</sys_created_on>
+        <sys_id>49e440aac454bd101fdb12a1f707d8a7</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>AcQDO/yJUE5HDQoaCgAAAA1JSERSAAAAIAAAACAIBgAAAHN6evQAAAAEZ0FNQQAAsY8L/GEFAAAAOGVYSWZNTQAqAAAACAABh2kABAAAAAEAAAAaAAAAAAACoAIABAAAAAEAAAAgoAMABAAAAAEAAAAgAAAAAI9OQMkAAAM3SURBVFgJxVddaxNBFJ27Sb98N6jYii8++RbblEqaffVFRE3FH2GhFPU1UFtQUMEfUbEq6Iv1pbhaEBPNL/BBtFAxP6CpbZLxnp1MdrPZnQwxpQvJfN17ztmZOzN3hTjmh2z5ZankVD68u0wtut6S4qIgcY6EnJKCDrnclZJ2GauaTos3WffKZyqVWjbYfQX8cN3xP836EpMsSilO2YAKQTUi+TiTOvHsvOftm3yMAr7mczdaUj6RQkyZQJLGiMSOI2hperv8OsnGiRuQPJ/l/OxqU8pXg5IDl2dsEhjl+ZkHwIzj6unEWpe3NtfZ+1acw8B9RC9yn77cJl6bMEbPDFS23q8MnRyM/EKVQm4lTI561wxgzTFlUaNhtlNEN8Mx0RGAaK816995rc4OkzCKhcDk3XFB747OEtSae3dM5Kz0VxQsqW2yRWAy16L29QXIYjHFHXd1Z7QE4AiNXeIV86JjvW3yYGsWQcsIdvj6f5XazzlWdrIXTPVgKx7Ig41RGl0wiyAPNrA1b1+ZqXqbcx0BfLxeTSIP+qVrFhGQc8i7gV98rdEQ1zCilkDI6XizaG+SCEV+KP6+tCFvo2ZRptuN0+3SoghEgJAPOKmnnZ0LFgC+CZ9HZ1DxBfCNxo2uA6oPjnRBPiLGijhJ1JvbkwNccQYz0Icwfjg10WR6FlCPHzf2SvXGfgzgPjcaRwb5MPk4PpFe2K83NvBDHX0RM2OTl+A3DFQQqmTC6KAHw+S8dQv4DSKincAoAQxe1QSmEuRYdxCCWNsOIsIh8Q3+/gwgjdJgSaUmV5EfkGt7LQICbZbDSYm38PUFIIdDGqXBoiWOVQAnkWt7iMBh5ceE8e6gmuIMXcfl/Mw9BniowaIlRJiP18Cjny3P0P3cduURPPwZQAUJJA/soB732JLD12QLDnBpjo4A3M9IIPXAUZXg0LkAODoC0ECmQo5YRf0oHmCHsyFw8HJ1P8hey/Ozz4eeF9ompchaVfbqrHVLG7xF5KzFZcRA7JmBMI3/YSLkU94dk+F+2zoCrt+HiVEAiFSyusefZbTM8Z2xIx/Sp1mYDDkc0qh2JpPFfa6v1P/5OA1zHEv9H20gfSjvSj2fAAAAAElFTkSuQmCCptkE4MQDAAA=</data>
+        <length>1304</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="85e440aa2654bd10a7a29ffcf7ba6ba7">85e440aa2654bd10a7a29ffcf7ba6ba7</sys_attachment>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:51</sys_created_on>
+        <sys_id>01e440aac854bd10613722c72b0737a7</sys_id>
+    </sys_attachment_doc>
+</record_update>

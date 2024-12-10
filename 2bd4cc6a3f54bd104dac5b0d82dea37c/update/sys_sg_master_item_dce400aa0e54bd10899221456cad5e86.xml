@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition_order/>
+        <datasource_table>x_snc_marketing_0_event</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="All Events">64e400aa6854bd10c23c23e4ec201fab</embedded_screen>
+        <item_view display_value="All Events Item View">58e400aa0454bd10f638d42cb490bda1</item_view>
+        <name>All Events Copy Master Item</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:18:44</sys_created_on>
+        <sys_id>dce400aa0e54bd10899221456cad5e86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Events Copy Master Item</sys_name>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_sg_master_item_dce400aa0e54bd10899221456cad5e86</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:18:44</sys_updated_on>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="All Events Copy View Config">90e400aa7554bd1053508b7c4d0ae56e</view_config>
+    </sys_sg_master_item>
+</record_update>

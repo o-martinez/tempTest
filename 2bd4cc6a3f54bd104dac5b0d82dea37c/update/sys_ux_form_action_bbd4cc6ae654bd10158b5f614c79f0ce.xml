@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>ui_action</action_type>
+        <active>true</active>
+        <declarative_action/>
+        <description/>
+        <name>Save Changes</name>
+        <specificity>10</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:18:47</sys_created_on>
+        <sys_id>bbd4cc6ae654bd10158b5f614c79f0ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Save Changes</sys_name>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_ux_form_action_bbd4cc6ae654bd10158b5f614c79f0ce</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:18:47</sys_updated_on>
+        <table>x_snc_marketing_0_event_location</table>
+        <ui_action display_value="Save Changes">80e400aa1854bd104f960c4906762512</ui_action>
+    </sys_ux_form_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=bbd4cc6ae654bd10158b5f614c79f0ce"/>
+</record_update>

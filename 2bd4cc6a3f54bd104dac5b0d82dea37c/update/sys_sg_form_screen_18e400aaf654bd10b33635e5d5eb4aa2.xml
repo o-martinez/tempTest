@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_screen">
+    <sys_sg_form_screen action="INSERT_OR_UPDATE">
+        <alert/>
+        <available_offline>false</available_offline>
+        <data_item/>
+        <description/>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="My Attendees Icon">e4e400aaf354bd107444bac5989740a3</icon>
+        <item_view display_value="My Attendees Header Item View">d0e400aa9854bd10758dbc1fdab156a1</item_view>
+        <name>My Attendees</name>
+        <override_context_with_data_item>false</override_context_with_data_item>
+        <parameter_screen/>
+        <roles_override/>
+        <segments_height/>
+        <segments_min_width/>
+        <sys_class_name>sys_sg_form_screen</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:18:50</sys_created_on>
+        <sys_id>18e400aaf654bd10b33635e5d5eb4aa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Attendees</sys_name>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_sg_form_screen_18e400aaf654bd10b33635e5d5eb4aa2</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:18:50</sys_updated_on>
+        <table/>
+        <use_view_config>false</use_view_config>
+        <view_config/>
+    </sys_sg_form_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=18e400aaf654bd10b33635e5d5eb4aa2"/>
+</record_update>

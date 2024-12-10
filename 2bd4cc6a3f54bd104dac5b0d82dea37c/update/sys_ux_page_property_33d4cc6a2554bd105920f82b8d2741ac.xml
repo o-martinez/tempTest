@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>searchEvamDefinitionId</name>
+        <page display_value="Marketing Event Management Portal">d1e440aae354bd105ffaf63f1d2033b7</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>33d4cc6a2554bd105920f82b8d2741ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>searchEvamDefinitionId</sys_name>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_ux_page_property_33d4cc6a2554bd105920f82b8d2741ac</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:39</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_snc_marketing_0.d1e440aae354bd105ffaf63f1d2033b7.root.searchEvamDefinitionId</unique_name>
+        <value>fbd4cc6a5254bd10d10d7ca0e156ffd6</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=33d4cc6a2554bd105920f82b8d2741ac"/>
+</record_update>

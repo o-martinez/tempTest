@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config">
+    <sys_sg_view_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <description/>
+        <name>Attendees View Config</name>
+        <scratchpad_script/>
+        <sys_class_name>sys_sg_view_config</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:42</sys_created_on>
+        <sys_id>a4e400aa7b54bd1000d002e70ed234a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attendees View Config</sys_name>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_sg_view_config_a4e400aa7b54bd1000d002e70ed234a4</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:42</sys_updated_on>
+        <table>x_snc_marketing_0_attendee</table>
+        <template display_value="Template 04">60de27930f202010e70a4abec4767ebe</template>
+    </sys_sg_view_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=a4e400aa7b54bd1000d002e70ed234a4"/>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="v_search_genius_result">model=805f142c24bd2010f8773f9d33adf391^EQ<item endquery="false" field="model" goto="false" newquery="false" operator="=" or="false" value="805f142c24bd2010f8773f9d33adf391"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>columns.var__m_sys_search_genius_result_field_805f142c24bd2010f8773f9d33adf391.event_name,columns.var__m_sys_search_genius_result_field_805f142c24bd2010f8773f9d33adf391.spaces_left,columns.var__m_sys_search_genius_result_field_805f142c24bd2010f8773f9d33adf391.organizer,columns.var__m_sys_search_genius_result_field_805f142c24bd2010f8773f9d33adf391.location,columns.var__m_sys_search_genius_result_field_805f142c24bd2010f8773f9d33adf391.image,columns.var__m_sys_search_genius_result_field_805f142c24bd2010f8773f9d33adf391.table,columns.var__m_sys_search_genius_result_field_805f142c24bd2010f8773f9d33adf391.sys_id,columns.var__m_sys_search_genius_result_field_805f142c24bd2010f8773f9d33adf391.date_from</field_list>
+        <name>Event Reg Genius Config</name>
+        <order>100</order>
+        <predicate_bundle display_value="Event Registration Search Bundle">7fd4cc6a1054bd10e0fa0555eb4ac9d4</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:18:41</sys_created_on>
+        <sys_id>33d4cc6aa154bd10182fc177257f2dd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event Reg Genius Config</sys_name>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_33d4cc6aa154bd10182fc177257f2dd2</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:18:41</sys_updated_on>
+        <table>v_search_genius_result</table>
+        <ux_template display_value="Event Reg Genius Result Template">7bd4cc6a6c54bd100baaba81810dced2</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>

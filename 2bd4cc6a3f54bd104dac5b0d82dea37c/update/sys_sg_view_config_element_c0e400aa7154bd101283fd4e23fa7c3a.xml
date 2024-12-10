@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>text_03_element</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:34</sys_created_on>
+        <sys_id>c0e400aa7154bd101283fd4e23fa7c3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_03_element</sys_name>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_c0e400aa7154bd101283fd4e23fa7c3a</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:34</sys_updated_on>
+        <view_config display_value="Attendees View Config">a4e400aa7b54bd1000d002e70ed234a4</view_config>
+        <view_template_slot display_value="">cbacfe9441e71010f877183fc9b8beb6</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>

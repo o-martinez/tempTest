@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>state</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:18:38</sys_created_on>
+        <sys_id>8ce400aac854bd103cae22afe3455303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>state</sys_name>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_ui_policy_action_8ce400aac854bd103cae22afe3455303</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:18:38</sys_updated_on>
+        <table>x_snc_marketing_0_event</table>
+        <ui_policy display_value="Hide state on workspace">44e400aa4e54bd10fb3bc3001fdf0103</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</application>
+        <file_path/>
+        <instance_id>dc239aa8eba95e94c040fddacad0cd33</instance_id>
+        <instance_name>democreatorwf89926</instance_name>
+        <name>sys_ui_policy_action_8ce400aac854bd103cae22afe3455303</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>state</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>mary.humble</sys_created_by><sys_created_on>2023-07-30 13:18:38</sys_created_on><sys_id>8ce400aac854bd103cae22afe3455303</sys_id><sys_mod_count>0</sys_mod_count><sys_name>state</sys_name><sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package><sys_policy/><sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope><sys_update_name>sys_ui_policy_action_8ce400aac854bd103cae22afe3455303</sys_update_name><sys_updated_by>mary.humble</sys_updated_by><sys_updated_on>2023-07-30 13:18:38</sys_updated_on><table>x_snc_marketing_0_event</table><ui_policy display_value="Hide state on workspace">44e400aa4e54bd10fb3bc3001fdf0103</ui_policy><visible>false</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-982851467</payload_hash>
+        <record_name>state</record_name>
+        <reverted_from/>
+        <source>44dd5d0d47251a10805583ab416d43e9</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-27 23:37:51</sys_created_on>
+        <sys_id>9f0ed98d47251a10805583ab416d43c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192d057da6b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-27 23:37:51</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>5f0ed98dd1251a1028068eb129a74fc1</update_guid>
+        <update_guid_history>5f0ed98dd1251a1028068eb129a74fc1:-982851467</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2024-10-28 00:46:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>91c8e2a8e38f4b909b21dacf2f304900</sys_id>
+        <sys_metadata>8ce400aac854bd103cae22afe3455303</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>state</sys_name>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_scope_delete display_value="">ccbc7293017b461883dd06ec828a4c24</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_8ce400aac854bd103cae22afe3455303</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_8ce400aac854bd103cae22afe3455303">9f0ed98d47251a10805583ab416d43c1</sys_update_version>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2024-10-28 00:46:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

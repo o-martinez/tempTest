@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>ui_action</action_type>
+        <active>true</active>
+        <declarative_action/>
+        <description/>
+        <name>Create Location</name>
+        <specificity>10</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:18:47</sys_created_on>
+        <sys_id>73d4cc6a7f54bd10d2ec1dfd84e3f7b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create Location</sys_name>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_ux_form_action_73d4cc6a7f54bd10d2ec1dfd84e3f7b4</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:18:47</sys_updated_on>
+        <table>x_snc_marketing_0_event_location</table>
+        <ui_action display_value="Create Location">8ce400aafa54bd10a31ac41decc52913</ui_action>
+    </sys_ux_form_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=73d4cc6a7f54bd10d2ec1dfd84e3f7b4"/>
+</record_update>

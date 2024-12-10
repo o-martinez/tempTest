@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_snc_marketing_0.Event Registration EVAM Attendee Card</api_name>
+        <batch_exclude>false</batch_exclude>
+        <description>Transform to map values from evam to the My Events tab in the ER portal.</description>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Event Registration EVAM Attendee Card</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[{&#13;
+  "name": "evamData",&#13;
+  "label": "Event EVAM Data",&#13;
+  "description": "",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "object",&#13;
+  "mandatory": true,&#13;
+  "defaultValue": {}&#13;
+}]</props>
+        <required_translations>[{"message":"Event EVAM Data","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+    input.evamData.items = input.evamData.items.map(function(item) {
+
+        var currentSysId = item.propValues.model.sys_id;
+
+        //Below is an example of how to access the dot walked fields from the model	
+        //item.propValues.model['event_name.spaces_left']
+
+        var attendee = new GlideRecord('x_snc_marketing_0_attendee');
+        attendee.get(currentSysId);
+        if (attendee) {
+            var event = attendee.event_name.sys_id;
+
+            var getEvent = new GlideRecord('x_snc_marketing_0_event');
+            getEvent.get(event);
+            if (getEvent) {
+                var organizer = getEvent.organizer.name;
+                var spacesLeft = getEvent.spaces_left;
+                var startDate = getEvent.getValue("date_from");
+
+                if (attendee.attendee_status == 'confirmed') {
+                    item.propValues.highlightedHeaderIcon = "check-outline";
+                    item.propValues.highlightedHeaderBkgColor = 'positive';
+                    item.propValues.highlightedHeaderLabel = gs.getMessage('Attending');
+                } else if (attendee.attendee_status == 'waitlisted') {
+                    item.propValues.highlightedHeaderIcon = "clock-outline";
+                    item.propValues.highlightedHeaderBkgColor = 'warning';
+                    item.propValues.highlightedHeaderLabel = gs.getMessage('On waitlist');
+                }
+
+                if (spacesLeft == 0) {
+                    item.propValues.textHeaderLabel = gs.getMessage("Capacity Reached");
+                } else {
+                    item.propValues.textHeaderLabel = gs.getMessage('{0} Seats Remaining', spacesLeft);
+                }
+                item.propValues.subtitle = gs.getMessage('Organized by {0}', organizer);
+
+                var dtFormat = new EventRegistrationDTformat().formatDateTime(startDate);
+                item.propValues.detailValueOne = dtFormat;
+                item.propValues.clickAction.actionPayload.eventId = getEvent.sys_id;
+            }
+        }
+        return item;
+
+    });
+
+    input.evamData.all_actions = input.evamData.all_actions.map(function(action) {
+        if (action.name === 'navigation') {
+            action.actionPayload = JSON.stringify({
+                eventId: '',
+                table: '{{table}}',
+                sysId: '{{sysId}}'
+            });
+        }
+        return action;
+    });
+    return input.evamData;
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:18:54</sys_created_on>
+        <sys_id>a8e400aafa54bd10b3aef966ed57f8d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event Registration EVAM Attendee Card</sys_name>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_a8e400aafa54bd10b3aef966ed57f8d5</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:18:54</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=a8e400aafa54bd10b3aef966ed57f8d5"/>
+</record_update>

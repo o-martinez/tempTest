@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="Marketing Event Management Portal">d1e440aae354bd105ffaf63f1d2033b7</page>
+        <required_translations>[{"message":"Logout","comment":""},{"message":"UserMenu","comment":""}]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>77d4cc6a2c54bd10a170bb92a4993dad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_ux_page_property_77d4cc6a2c54bd10a170bb92a4993dad</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:09</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_snc_marketing_0.d1e440aae354bd105ffaf63f1d2033b7.root.chrome_header</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+      "searchEnabled": false,&#13;
+       "userPrefsEnabled":true,&#13;
+       "currentScreenLinkConfiguration": {&#13;
+            "roles": ["admin"],&#13;
+            "position": 250&#13;
+        },&#13;
+       "globalTools":{&#13;
+          "collapsingMenuId":0,&#13;
+          "primaryItems":[&#13;
+             {&#13;
+                "label":"UserMenu",&#13;
+                "icon":"user",&#13;
+                "type":"menu",&#13;
+                "primaryDisplay":"icon",&#13;
+                "value":{&#13;
+                   "children":[&#13;
+                    {&#13;
+                         "label": {&#13;
+                            "translatable": true,&#13;
+                            "message":"Logout"&#13;
+                          },&#13;
+         "type":  "navigation",            &#13;
+        "position":500,&#13;
+         "value":{&#13;
+         "type": "AUTH_ROUTE_BINDING",&#13;
+	"binding": {&#13;
+	"address": ["logout"],&#13;
+	"params": {"reload": true},&#13;
+	"default": "/logout.do"&#13;
+}&#13;
+                        }&#13;
+                      }&#13;
+                   ]&#13;
+                }&#13;
+             }&#13;
+          ],&#13;
+          "secondaryItems":[]&#13;
+       }&#13;
+    },&#13;
+    "publicPage":{&#13;
+      "menuEnabled": true,&#13;
+      "logoRoute": {&#13;
+        "type": "route",&#13;
+        "value": {&#13;
+          "route": "home",&#13;
+          "fields":{}&#13;
+        }&#13;
+      }&#13;
+    }&#13;
+ }</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=77d4cc6a2c54bd10a170bb92a4993dad"/>
+</record_update>

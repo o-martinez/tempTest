@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>image_01_element</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:15</sys_created_on>
+        <sys_id>98e400aad954bd100547a9edad958a4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>image_01_element</sys_name>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_98e400aad954bd100547a9edad958a4e</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:15</sys_updated_on>
+        <view_config display_value="Waitlist View Config">14e400aa7f54bd104eb4dbe8f2276b6f</view_config>
+        <view_template_slot display_value="">b48cb21841e71010f877183fc9b8beb0</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>

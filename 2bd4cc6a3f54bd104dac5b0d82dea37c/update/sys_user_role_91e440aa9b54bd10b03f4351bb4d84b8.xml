@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>An 'organizer' role which allows users to create and manage Events</description>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_snc_marketing_0.event_reg.organizer</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>event_reg.organizer</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:53</sys_created_on>
+        <sys_id>91e440aa9b54bd10b03f4351bb4d84b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_marketing_0.event_reg.organizer</sys_name>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_user_role_91e440aa9b54bd10b03f4351bb4d84b8</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:53</sys_updated_on>
+    </sys_user_role>
+</record_update>

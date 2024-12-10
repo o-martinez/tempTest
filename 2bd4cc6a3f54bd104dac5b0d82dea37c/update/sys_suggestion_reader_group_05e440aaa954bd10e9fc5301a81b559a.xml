@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_suggestion_reader_group">
+    <sys_suggestion_reader_group action="INSERT_OR_UPDATE">
+        <click_in_mode>false</click_in_mode>
+        <context_config_id display_value="">88344a45e8d92410f877eedcb4de17f3</context_config_id>
+        <limit>5</limit>
+        <order>400</order>
+        <section_header>Suggested Results</section_header>
+        <suggestion_type>Suggested Result Reader Group for Event Registration Portal Search Config</suggestion_type>
+        <sys_class_name>sys_suggestion_reader_group</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:51</sys_created_on>
+        <sys_id>05e440aaa954bd10e9fc5301a81b559a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Suggested Result Reader Group for Event Registration Portal Search Config</sys_name>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_suggestion_reader_group_05e440aaa954bd10e9fc5301a81b559a</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:51</sys_updated_on>
+    </sys_suggestion_reader_group>
+</record_update>

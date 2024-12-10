@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="88e400aafd54bd10d4f8022d13409e0d" sys_domain="global" table="x_snc_marketing_0_attendee" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:18:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4ce400aa1a54bd10b2305e1bef6bef0d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_marketing_0_attendee" name="x_snc_marketing_0_attendee" sys_domain="global" view="06e7daec472112109d58558b416d4325">88e400aafd54bd10d4f8022d13409e0d</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_marketing_0_attendee" sys_domain="global" view="06e7daec472112109d58558b416d4325">40e400aac254bd102abccc52a90b880d</sys_ui_section>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:18:34</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:18:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08e400aa1854bd10e4ac6f0f8d6c680c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_marketing_0_attendee" name="x_snc_marketing_0_attendee" sys_domain="global" view="06e7daec472112109d58558b416d4325">88e400aafd54bd10d4f8022d13409e0d</sys_ui_form>
+            <sys_ui_section caption="Notes and comments" display_value="Notes and comments" name="x_snc_marketing_0_attendee" sys_domain="global" view="06e7daec472112109d58558b416d4325">04e400aaf954bd100a0bfc18cafd680d</sys_ui_section>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:18:34</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_marketing_0_attendee</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:18:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88e400aafd54bd10d4f8022d13409e0d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_marketing_0_attendee</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+            <sys_update_name>sys_ui_form_sections_88e400aafd54bd10d4f8022d13409e0d</sys_update_name>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:18:34</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace" name="workspace">06e7daec472112109d58558b416d4325</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

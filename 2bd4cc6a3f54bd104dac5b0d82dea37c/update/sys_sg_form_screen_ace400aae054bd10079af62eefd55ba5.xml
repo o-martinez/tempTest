@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_screen">
+    <sys_sg_form_screen action="INSERT_OR_UPDATE">
+        <alert/>
+        <available_offline>false</available_offline>
+        <data_item/>
+        <description/>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="My Events Icon">e8e400aa6054bd10f53456ea7f8dada5</icon>
+        <item_view/>
+        <name>My Events</name>
+        <override_context_with_data_item>false</override_context_with_data_item>
+        <parameter_screen/>
+        <roles_override>x_snc_marketing_0.event_reg.organizer,x_snc_marketing_0.event_reg.admin</roles_override>
+        <segments_height>medium</segments_height>
+        <segments_min_width>medium</segments_min_width>
+        <sys_class_name>sys_sg_form_screen</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:14</sys_created_on>
+        <sys_id>ace400aae054bd10079af62eefd55ba5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Events</sys_name>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_sg_form_screen_ace400aae054bd10079af62eefd55ba5</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:14</sys_updated_on>
+        <table>x_snc_marketing_0_event</table>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="Events View Config">28e400aa3354bd1094d57ea2a902c4a5</view_config>
+    </sys_sg_form_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=ace400aae054bd10079af62eefd55ba5"/>
+</record_update>

@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Sends a reminder email to Event Attendees</description>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>x_snc_marketing_0.send_event_reminder_em</internal_name>
+        <label_cache>[{"name":"fcf92989-b87f-4e5c-b38c-2c81e31dfa37.item","label":"2➛Attendee Record","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"e5447539-13b9-4f98-890d-c6c3c9508089.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e5447539-13b9-4f98-890d-c6c3c9508089.Table","label":"1➛Attendee Table","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e5447539-13b9-4f98-890d-c6c3c9508089.Records","label":"1➛Attendee Records","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>78e440aaf154bd1017b80fbffa73aa19</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Send Event Reminder Email</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>b4e440aad754bd10cf89bb864c6e1619</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b0e440aaf554bd1076f2e67bfc14761a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Send Event Reminder Email</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_hub_flow_b0e440aaf554bd1076f2e67bfc14761a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-27 23:37:26</sys_updated_on>
+        <type>flow</type>
+        <version/>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=b0e440aaf554bd1076f2e67bfc14761a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b0e440aaf554bd1076f2e67bfc14761a"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <run_period/>
+        <run_start>2021-03-26 13:58:03</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b4e440aad754bd10cf89bb864c6e1619</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:39</sys_updated_on>
+        <time>1970-01-01 11:00:00</time>
+        <timer_type>11</timer_type>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="delete_multiple" query="name=Trigger:b4e440aad754bd10cf89bb864c6e1619^sys_idNOT INf0e440aa9354bd100e648b4722f78119"/>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <max_drift/>
+        <name>Trigger:b4e440aad754bd10cf89bb864c6e1619</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="">maint</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2021-03-26 13:58:03</run_start>
+        <run_time>1970-01-01 11:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('b4e440aad754bd10cf89bb864c6e1619');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:39</sys_created_on>
+        <sys_id>f0e440aa9354bd100e648b4722f78119</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:39</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">b4e440aad754bd10cf89bb864c6e1619</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=b0e440aaf554bd1076f2e67bfc14761a"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=b0e440aaf554bd1076f2e67bfc14761a"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=b0e440aaf554bd1076f2e67bfc14761a^sys_idNOT IN74e440aaf854bd104dc605537117eb1a"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>b0e440aaf554bd1076f2e67bfc14761a</id>
+        <name>Send Event Reminder Email</name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:39</sys_created_on>
+        <sys_id>74e440aaf854bd104dc605537117eb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:39</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=74e440aaf854bd104dc605537117eb1a"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=b0e440aaf554bd1076f2e67bfc14761a"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=b0e440aaf554bd1076f2e67bfc14761a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b0e440aaf554bd1076f2e67bfc14761a"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=b0e440aaf554bd1076f2e67bfc14761a^sys_idNOT IN3ce440aa9654bd101ffee3b1ebb1aa19"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment>Runs Daily at a specific time of day.</comment>
+        <display_text/>
+        <flow display_value="Send Event Reminder Email">b0e440aaf554bd1076f2e67bfc14761a</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:39</sys_created_on>
+        <sys_id>3ce440aa9654bd101ffee3b1ebb1aa19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:39</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3ce440aa9654bd101ffee3b1ebb1aa19"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3ce440aa9654bd101ffee3b1ebb1aa19</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:39</sys_created_on>
+        <sys_id>fce440aab654bd100317e2edff262f19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:39</sys_updated_on>
+        <value>1970-01-01 03:00:00</value>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=3ce440aa9654bd101ffee3b1ebb1aa19"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=b0e440aaf554bd1076f2e67bfc14761a^sys_idNOT IN30e440aa0554bd10fef042db88e82619,f4e440aa7954bd10e9f8f03d03673218"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment>Send reminder notification to attendees</comment>
+        <display_text/>
+        <flow display_value="Send Event Reminder Email">b0e440aaf554bd1076f2e67bfc14761a</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>fcf92989-b87f-4e5c-b38c-2c81e31dfa37</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:39</sys_created_on>
+        <sys_id>30e440aa0554bd10fef042db88e82619</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-12-07 11:00:07</sys_updated_on>
+        <ui_id>001849c5-2f70-48d1-bb82-0a9370ce40e9</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=30e440aa0554bd10fef042db88e82619"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>30e440aa0554bd10fef042db88e82619</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:39</sys_created_on>
+        <sys_id>74e440aa5754bd10bdd5a99a18f98617</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:39</sys_updated_on>
+        <value>x_snc_marketing_0_attendee</value>
+        <variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>30e440aa0554bd10fef042db88e82619</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:39</sys_created_on>
+        <sys_id>b0e440aa5954bd101e11128aaa937f17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:39</sys_updated_on>
+        <value>81e440aa7554bd1022aad993fedff799</value>
+        <variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=30e440aa0554bd10fef042db88e82619"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>30e440aa0554bd10fef042db88e82619</id>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:39</sys_created_on>
+        <sys_id>f8e440aa6354bd104aacc2757a6cda17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value>{{fcf92989-b87f-4e5c-b38c-2c81e31dfa37.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=30e440aa0554bd10fef042db88e82619"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=30e440aa0554bd10fef042db88e82619"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment>Get confirmed attendees for events where the reminder email date is today</comment>
+        <display_text/>
+        <flow display_value="Send Event Reminder Email">b0e440aaf554bd1076f2e67bfc14761a</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:39</sys_created_on>
+        <sys_id>f4e440aa7954bd10e9f8f03d03673218</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-12-07 11:00:07</sys_updated_on>
+        <ui_id>e5447539-13b9-4f98-890d-c6c3c9508089</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f4e440aa7954bd10e9f8f03d03673218"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f4e440aa7954bd10e9f8f03d03673218</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:39</sys_created_on>
+        <sys_id>34e440aae354bd10b66d6fa8e7878c18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:39</sys_updated_on>
+        <value>event_nameISNOTEMPTY^attendee_status=confirmed^event_name.event_reminder_date&gt;javascript:gs.endOfYesterday()^event_name.event_reminder_date&lt;javascript:gs.beginningOfTomorrow()^event_name.stateIN1,2</value>
+        <variable display_value="Conditions">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f4e440aa7954bd10e9f8f03d03673218</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:39</sys_created_on>
+        <sys_id>7ce440aabe54bd1020f32e85ea44fa18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:39</sys_updated_on>
+        <value>x_snc_marketing_0_attendee</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b^id=f4e440aa7954bd10e9f8f03d03673218"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f4e440aa7954bd10e9f8f03d03673218"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f4e440aa7954bd10e9f8f03d03673218"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=b0e440aaf554bd1076f2e67bfc14761a^sys_idNOT INb8e440aaff54bd1027288f750849db18"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">38e440aa3d54bd10b93fbabffd790717</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Send Event Reminder Email">b0e440aaf554bd1076f2e67bfc14761a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:39</sys_created_on>
+        <sys_id>b8e440aaff54bd1027288f750849db18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:39</sys_updated_on>
+        <ui_id>fcf92989-b87f-4e5c-b38c-2c81e31dfa37</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b8e440aaff54bd1027288f750849db18"/>
+    <sys_element_mapping action="delete_multiple" query="id=b8e440aaff54bd1027288f750849db18"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>b8e440aaff54bd1027288f750849db18</id>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:39</sys_created_on>
+        <sys_id>70e440aa6354bd10db44e1815bb47618</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:39</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{e5447539-13b9-4f98-890d-c6c3c9508089.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b8e440aaff54bd1027288f750849db18"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b8e440aaff54bd1027288f750849db18"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=b0e440aaf554bd1076f2e67bfc14761a"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=b0e440aaf554bd1076f2e67bfc14761a"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=b0e440aaf554bd1076f2e67bfc14761a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_b0e440aaf554bd1076f2e67bfc14761a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_b0e440aaf554bd1076f2e67bfc14761a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_b0e440aaf554bd1076f2e67bfc14761a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_b0e440aaf554bd1076f2e67bfc14761a"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Sends a reminder email to Event Attendees</description>
+        <flow_priority/>
+        <internal_name>x_snc_marketing_0.send_event_reminder_em</internal_name>
+        <label_cache>[{"name":"fcf92989-b87f-4e5c-b38c-2c81e31dfa37.item","label":"2➛Attendee Record","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"e5447539-13b9-4f98-890d-c6c3c9508089.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e5447539-13b9-4f98-890d-c6c3c9508089.Table","label":"1➛Attendee Table","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e5447539-13b9-4f98-890d-c6c3c9508089.Records","label":"1➛Attendee Records","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Send Event Reminder Email</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Send Event Reminder Email">b0e440aaf554bd1076f2e67bfc14761a</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>78e440aaf154bd1017b80fbffa73aa19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:39</sys_updated_on>
+        <type>flow</type>
+        <version/>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=78e440aaf154bd1017b80fbffa73aa19"/>
+    <sys_variable_value action="delete_multiple" query="document_key=78e440aaf154bd1017b80fbffa73aa19"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=78e440aaf154bd1017b80fbffa73aa19"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=78e440aaf154bd1017b80fbffa73aa19^sys_idNOT INf0e440aa8154bd10568279c7b5e5d916"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>78e440aaf154bd1017b80fbffa73aa19</id>
+        <name>Send Event Reminder Email</name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:39</sys_created_on>
+        <sys_id>f0e440aa8154bd10568279c7b5e5d916</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:39</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f0e440aa8154bd10568279c7b5e5d916"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=78e440aaf154bd1017b80fbffa73aa19"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=78e440aaf154bd1017b80fbffa73aa19"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=78e440aaf154bd1017b80fbffa73aa19"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=78e440aaf154bd1017b80fbffa73aa19^sys_idNOT INfce440aac454bd1092b770305093e416"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment>Runs Daily at a specific time of day.</comment>
+        <display_text/>
+        <flow display_value="Send Event Reminder Email">78e440aaf154bd1017b80fbffa73aa19</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:39</sys_created_on>
+        <sys_id>fce440aac454bd1092b770305093e416</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:39</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fce440aac454bd1092b770305093e416"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>fce440aac454bd1092b770305093e416</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:39</sys_created_on>
+        <sys_id>3ce440aa0f54bd108bb9c3aa772a6f16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:39</sys_updated_on>
+        <value>1970-01-01 03:00:00</value>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=fce440aac454bd1092b770305093e416"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=78e440aaf154bd1017b80fbffa73aa19^sys_idNOT INb4e440aa0854bd10940acfeb46bb3016,b8e440aaf654bd1047f77af7910a0d15"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment>Send reminder notification to attendees</comment>
+        <display_text/>
+        <flow display_value="Send Event Reminder Email">78e440aaf154bd1017b80fbffa73aa19</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>fcf92989-b87f-4e5c-b38c-2c81e31dfa37</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:39</sys_created_on>
+        <sys_id>b4e440aa0854bd10940acfeb46bb3016</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:39</sys_updated_on>
+        <ui_id>001849c5-2f70-48d1-bb82-0a9370ce40e9</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b4e440aa0854bd10940acfeb46bb3016"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b4e440aa0854bd10940acfeb46bb3016</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:39</sys_created_on>
+        <sys_id>30e440aa4c54bd10bf680a55e6871f16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:39</sys_updated_on>
+        <value>81e440aa7554bd1022aad993fedff799</value>
+        <variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b4e440aa0854bd10940acfeb46bb3016</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:39</sys_created_on>
+        <sys_id>f4e440aaf354bd1009d55dd06df22315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:39</sys_updated_on>
+        <value>x_snc_marketing_0_attendee</value>
+        <variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b4e440aa0854bd10940acfeb46bb3016"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>b4e440aa0854bd10940acfeb46bb3016</id>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:39</sys_created_on>
+        <sys_id>34e440aadc54bd10a91f0d0e61857f15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value>{{fcf92989-b87f-4e5c-b38c-2c81e31dfa37.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b4e440aa0854bd10940acfeb46bb3016"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b4e440aa0854bd10940acfeb46bb3016"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment>Get confirmed attendees for events where the reminder email date is today</comment>
+        <display_text/>
+        <flow display_value="Send Event Reminder Email">78e440aaf154bd1017b80fbffa73aa19</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:39</sys_created_on>
+        <sys_id>b8e440aaf654bd1047f77af7910a0d15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:39</sys_updated_on>
+        <ui_id>e5447539-13b9-4f98-890d-c6c3c9508089</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b8e440aaf654bd1047f77af7910a0d15"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b8e440aaf654bd1047f77af7910a0d15</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:39</sys_created_on>
+        <sys_id>78e440aa8754bd1059f415127ff6e416</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:39</sys_updated_on>
+        <value>event_nameISNOTEMPTY^attendee_status=confirmed^event_name.event_reminder_date&gt;javascript:gs.endOfYesterday()^event_name.event_reminder_date&lt;javascript:gs.beginningOfTomorrow()^event_name.stateIN1,2</value>
+        <variable display_value="Conditions">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b8e440aaf654bd1047f77af7910a0d15</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:39</sys_created_on>
+        <sys_id>7ce440aa5054bd10123e93735396da15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:39</sys_updated_on>
+        <value>x_snc_marketing_0_attendee</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b^id=b8e440aaf654bd1047f77af7910a0d15"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b8e440aaf654bd1047f77af7910a0d15"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b8e440aaf654bd1047f77af7910a0d15"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=78e440aaf154bd1017b80fbffa73aa19^sys_idNOT INf8e440aae854bd102e9a9b4a15f45a14"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">38e440aa3d54bd10b93fbabffd790717</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Send Event Reminder Email">78e440aaf154bd1017b80fbffa73aa19</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:39</sys_created_on>
+        <sys_id>f8e440aae854bd102e9a9b4a15f45a14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:39</sys_updated_on>
+        <ui_id>fcf92989-b87f-4e5c-b38c-2c81e31dfa37</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f8e440aae854bd102e9a9b4a15f45a14"/>
+    <sys_element_mapping action="delete_multiple" query="id=f8e440aae854bd102e9a9b4a15f45a14"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>f8e440aae854bd102e9a9b4a15f45a14</id>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:39</sys_created_on>
+        <sys_id>70e440aa8654bd109b5eb474e933e115</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:39</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{e5447539-13b9-4f98-890d-c6c3c9508089.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f8e440aae854bd102e9a9b4a15f45a14"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f8e440aae854bd102e9a9b4a15f45a14"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=78e440aaf154bd1017b80fbffa73aa19"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=78e440aaf154bd1017b80fbffa73aa19"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=78e440aaf154bd1017b80fbffa73aa19"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_78e440aaf154bd1017b80fbffa73aa19"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_78e440aaf154bd1017b80fbffa73aa19"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_78e440aaf154bd1017b80fbffa73aa19"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_78e440aaf154bd1017b80fbffa73aa19"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>b0e440aaf554bd1076f2e67bfc14761a</sys_id>
+        <latest_snapshot>78e440aaf154bd1017b80fbffa73aa19</latest_snapshot>
+        <compiler_build>glide-xanadu-07-02-2024__patch4-11-22-2024_12-02-2024_1408.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=b0e440aaf554bd1076f2e67bfc14761a^sys_idNOT INbce440aabe54bd1010a1c1aa93522117"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"bce440aabe54bd1010a1c1aa93522117","name":"plan","plan_signature":null}}</plan>
+        <plan_id>b0e440aaf554bd1076f2e67bfc14761a</plan_id>
+        <snapshot>4bc9fdc2479a52109d58558b416d4368</snapshot>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bce440aabe54bd1010a1c1aa93522117</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:39</sys_updated_on>
+        <trigger display_value="">b4e440aad754bd10cf89bb864c6e1619</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=b0e440aaf554bd1076f2e67bfc14761a"/>
+</record_update>

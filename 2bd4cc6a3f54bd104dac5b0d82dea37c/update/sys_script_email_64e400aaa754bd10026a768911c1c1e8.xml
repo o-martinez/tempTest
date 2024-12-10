@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>x_snc_marketing_0.getEventLinkFromAttend</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action, /* Optional GlideRecord */ event) {
+
+    // Return proper link to Event Registration portal page
+	var baseURL = gs.getProperty('glide.servlet.uri');
+	template.print(baseURL + 'now/x_snc_marketing_0-event_registration/event_details/x_snc_marketing_0_event/' + current.event_name.sys_id);
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:05</sys_created_on>
+        <sys_id>64e400aaa754bd10026a768911c1c1e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_marketing_0.getEventLinkFromAttend</sys_name>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_script_email_64e400aaa754bd10026a768911c1c1e8</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:05</sys_updated_on>
+    </sys_script_email>
+</record_update>

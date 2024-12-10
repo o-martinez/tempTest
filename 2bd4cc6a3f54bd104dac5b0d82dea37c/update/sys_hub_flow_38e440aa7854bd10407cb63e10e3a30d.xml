@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Set event state to expired and attendees to event ended after the event ends.</description>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>x_snc_marketing_0.event_registration_exp</internal_name>
+        <label_cache>[{"name":"45ea2e05-2653-48bd-a59e-1094b592bbc4.table_name","label":"3➛Event Table","reference":"x_snc_event_reg_event","reference_display":"Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"45ea2e05-2653-48bd-a59e-1094b592bbc4.record","label":"3➛Event Record","reference":"x_snc_event_reg_event","reference_display":"Event","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"958d7c0a-a2ef-4341-aa6f-c9d7723d966d.item","label":"2➛Event Record","reference":"x_snc_event_reg_event","reference_display":"Event","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"94140244-e686-4724-aa11-a800e7c2c930.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"94140244-e686-4724-aa11-a800e7c2c930.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0d0dd584-de1f-4b82-a1ac-05e00ae0d3e7.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0d0dd584-de1f-4b82-a1ac-05e00ae0d3e7.Table","label":"1➛Event Table","reference":"x_snc_event_reg_event","reference_display":"Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0d0dd584-de1f-4b82-a1ac-05e00ae0d3e7.Records","label":"1➛Event Records","reference":"x_snc_event_reg_event","reference_display":"Event","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4db827e1-6ee6-4ca5-910f-4fadf40532e0.context","label":"4➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <master_snapshot>7ce440aa1854bd10f6ded530ee536810</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Event Registration expired events</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>fce440aab054bd102389c5b14da73c0e</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>38e440aa7854bd10407cb63e10e3a30d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event Registration expired events</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_hub_flow_38e440aa7854bd10407cb63e10e3a30d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-27 23:37:22</sys_updated_on>
+        <type>flow</type>
+        <version/>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=38e440aa7854bd10407cb63e10e3a30d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=38e440aa7854bd10407cb63e10e3a30d"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <run_period/>
+        <run_start>2021-03-26 13:53:02</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fce440aab054bd102389c5b14da73c0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:00</sys_updated_on>
+        <time>1970-01-01 10:00:00</time>
+        <timer_type>11</timer_type>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="delete_multiple" query="name=Trigger:fce440aab054bd102389c5b14da73c0e^sys_idNOT IN3ce440aa8054bd10aa021220622d150e"/>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <max_drift/>
+        <name>Trigger:fce440aab054bd102389c5b14da73c0e</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="">maint</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2021-03-26 13:53:02</run_start>
+        <run_time>1970-01-01 10:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('fce440aab054bd102389c5b14da73c0e');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:00</sys_created_on>
+        <sys_id>3ce440aa8054bd10aa021220622d150e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:00</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">fce440aab054bd102389c5b14da73c0e</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=38e440aa7854bd10407cb63e10e3a30d"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=38e440aa7854bd10407cb63e10e3a30d"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=38e440aa7854bd10407cb63e10e3a30d^sys_idNOT INb0e440aaf654bd106fbc10b2d8cbdc0f"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>38e440aa7854bd10407cb63e10e3a30d</id>
+        <name>Event Registration expired events</name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:00</sys_created_on>
+        <sys_id>b0e440aaf654bd106fbc10b2d8cbdc0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:00</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=b0e440aaf654bd106fbc10b2d8cbdc0f"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=38e440aa7854bd10407cb63e10e3a30d"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=38e440aa7854bd10407cb63e10e3a30d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=38e440aa7854bd10407cb63e10e3a30d"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=38e440aa7854bd10407cb63e10e3a30d^sys_idNOT IN7ce440aaf454bd10c9edd4d49400980d"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment>Run this flow daily in the early morning</comment>
+        <display_text/>
+        <flow display_value="Event Registration expired events">38e440aa7854bd10407cb63e10e3a30d</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:00</sys_created_on>
+        <sys_id>7ce440aaf454bd10c9edd4d49400980d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:00</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7ce440aaf454bd10c9edd4d49400980d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>7ce440aaf454bd10c9edd4d49400980d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:00</sys_created_on>
+        <sys_id>74e440aa3354bd10442f0f97d8f6b70f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:00</sys_updated_on>
+        <value>1970-01-01 02:00:00</value>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=7ce440aaf454bd10c9edd4d49400980d"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=38e440aa7854bd10407cb63e10e3a30d^sys_idNOT IN30e440aac054bd10523690cb840b810e,b4e440aa1854bd10bb57aad664c3fb0e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment>Set the event state to expired</comment>
+        <display_text/>
+        <flow display_value="Event Registration expired events">38e440aa7854bd10407cb63e10e3a30d</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>958d7c0a-a2ef-4341-aa6f-c9d7723d966d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:00</sys_created_on>
+        <sys_id>30e440aac054bd10523690cb840b810e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-12-07 10:00:03</sys_updated_on>
+        <ui_id>45ea2e05-2653-48bd-a59e-1094b592bbc4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=30e440aac054bd10523690cb840b810e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>30e440aac054bd10523690cb840b810e</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:00</sys_created_on>
+        <sys_id>74e440aabe54bd107ab84d97008c380d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:00</sys_updated_on>
+        <value>x_snc_marketing_0_event</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>30e440aac054bd10523690cb840b810e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:00</sys_created_on>
+        <sys_id>f0e440aaa054bd1034343704dccd8e0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:00</sys_updated_on>
+        <value>state=20</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=30e440aac054bd10523690cb840b810e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>30e440aac054bd10523690cb840b810e</id>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:01</sys_created_on>
+        <sys_id>78e440aa6954bd103d9f869728b3020c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{958d7c0a-a2ef-4341-aa6f-c9d7723d966d.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=30e440aac054bd10523690cb840b810e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=30e440aac054bd10523690cb840b810e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment>Find the events that ended prior to when the flow executes</comment>
+        <display_text/>
+        <flow display_value="Event Registration expired events">38e440aa7854bd10407cb63e10e3a30d</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:00</sys_created_on>
+        <sys_id>b4e440aa1854bd10bb57aad664c3fb0e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-12-07 10:00:03</sys_updated_on>
+        <ui_id>0d0dd584-de1f-4b82-a1ac-05e00ae0d3e7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b4e440aa1854bd10bb57aad664c3fb0e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b4e440aa1854bd10bb57aad664c3fb0e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:00</sys_created_on>
+        <sys_id>78e440aa2c54bd10713801435780940e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:00</sys_updated_on>
+        <value>x_snc_marketing_0_event</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b4e440aa1854bd10bb57aad664c3fb0e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:00</sys_created_on>
+        <sys_id>f0e440aa6d54bd105f4ec8ef5846c70e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:00</sys_updated_on>
+        <value>stateIN1,2^date_toRELATIVELT@minute@ago@1</value>
+        <variable display_value="Conditions">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b^id=b4e440aa1854bd10bb57aad664c3fb0e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b4e440aa1854bd10bb57aad664c3fb0e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b4e440aa1854bd10bb57aad664c3fb0e"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=38e440aa7854bd10407cb63e10e3a30d^sys_idNOT INf8e440aa7154bd106efc0947f8142a0a"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">70e440aa1954bd10d00bec1a07b0150b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Event Registration expired events">38e440aa7854bd10407cb63e10e3a30d</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:01</sys_created_on>
+        <sys_id>f8e440aa7154bd106efc0947f8142a0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:01</sys_updated_on>
+        <ui_id>958d7c0a-a2ef-4341-aa6f-c9d7723d966d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f8e440aa7154bd106efc0947f8142a0a"/>
+    <sys_element_mapping action="delete_multiple" query="id=f8e440aa7154bd106efc0947f8142a0a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>f8e440aa7154bd106efc0947f8142a0a</id>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:01</sys_created_on>
+        <sys_id>f4e440aa6054bd10971c7e33292eea0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:01</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{0d0dd584-de1f-4b82-a1ac-05e00ae0d3e7.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f8e440aa7154bd106efc0947f8142a0a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f8e440aa7154bd106efc0947f8142a0a"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=38e440aa7854bd10407cb63e10e3a30d^sys_idNOT IN3ce440aafa54bd1001336b346abb320c"/>
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Event Registration expired events">38e440aa7854bd10407cb63e10e3a30d</flow>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <order>4</order>
+        <parent_ui_id>958d7c0a-a2ef-4341-aa6f-c9d7723d966d</parent_ui_id>
+        <subflow display_value="Update Event Registration attendee records">f0e440aa7154bd104982e7156e459314</subflow>
+        <subflow_instance_inputs/>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:01</sys_created_on>
+        <sys_id>3ce440aafa54bd1001336b346abb320c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:01</sys_updated_on>
+        <ui_id>4db827e1-6ee6-4ca5-910f-4fadf40532e0</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3ce440aafa54bd1001336b346abb320c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>3ce440aafa54bd1001336b346abb320c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:01</sys_created_on>
+        <sys_id>b0e440aab054bd10fdb2c89584c4820d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:01</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait For Completion">fce440aa0d54bd10c0e8d34bbbaa9b0c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3ce440aafa54bd1001336b346abb320c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>event_record</field>
+        <id>3ce440aafa54bd1001336b346abb320c</id>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:01</sys_created_on>
+        <sys_id>b4e440aa4d54bd10fb2f9ed37cac0c0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:01</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_f0e440aa7154bd104982e7156e459314</table>
+        <value>{{958d7c0a-a2ef-4341-aa6f-c9d7723d966d.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_sub_flow_instance_inputs_3ce440aafa54bd1001336b346abb320c^id=3ce440aafa54bd1001336b346abb320c"/>
+    <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=3ce440aafa54bd1001336b346abb320c^sys_idNOT INfce440aa0d54bd10c0e8d34bbbaa9b0c"/>
+    <sys_hub_sub_flow_instance_inputs action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,fd_hide_inline_script_widget=true,uiType=boolean,uiTypeLabel=True/False</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wait_for_completion</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Wait For Completion</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="">3ce440aafa54bd1001336b346abb320c</model>
+        <model_id>ec153fbe3c032010f877f65c5aad338f</model_id>
+        <model_table>sys_hub_flow_logic_ext_input</model_table>
+        <name>var__m_sys_hub_sub_flow_instance_inputs_3ce440aafa54bd1001336b346abb320c</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_sub_flow_instance_inputs</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:01</sys_created_on>
+        <sys_id>fce440aa0d54bd10c0e8d34bbbaa9b0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_sub_flow_instance_inputs>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3ce440aafa54bd1001336b346abb320c"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=38e440aa7854bd10407cb63e10e3a30d"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=38e440aa7854bd10407cb63e10e3a30d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_38e440aa7854bd10407cb63e10e3a30d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_38e440aa7854bd10407cb63e10e3a30d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_38e440aa7854bd10407cb63e10e3a30d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_38e440aa7854bd10407cb63e10e3a30d"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Set event state to expired and attendees to event ended after the event ends.</description>
+        <flow_priority/>
+        <internal_name>x_snc_marketing_0.event_registration_exp</internal_name>
+        <label_cache>[{"name":"45ea2e05-2653-48bd-a59e-1094b592bbc4.table_name","label":"3➛Event Table","reference":"x_snc_event_reg_event","reference_display":"Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"45ea2e05-2653-48bd-a59e-1094b592bbc4.record","label":"3➛Event Record","reference":"x_snc_event_reg_event","reference_display":"Event","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"958d7c0a-a2ef-4341-aa6f-c9d7723d966d.item","label":"2➛Event Record","reference":"x_snc_event_reg_event","reference_display":"Event","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"94140244-e686-4724-aa11-a800e7c2c930.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"94140244-e686-4724-aa11-a800e7c2c930.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0d0dd584-de1f-4b82-a1ac-05e00ae0d3e7.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0d0dd584-de1f-4b82-a1ac-05e00ae0d3e7.Table","label":"1➛Event Table","reference":"x_snc_event_reg_event","reference_display":"Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0d0dd584-de1f-4b82-a1ac-05e00ae0d3e7.Records","label":"1➛Event Records","reference":"x_snc_event_reg_event","reference_display":"Event","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4db827e1-6ee6-4ca5-910f-4fadf40532e0.context","label":"4➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Event Registration expired events</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Event Registration expired events">38e440aa7854bd10407cb63e10e3a30d</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7ce440aa1854bd10f6ded530ee536810</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:01</sys_updated_on>
+        <type>flow</type>
+        <version/>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=7ce440aa1854bd10f6ded530ee536810"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7ce440aa1854bd10f6ded530ee536810"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=7ce440aa1854bd10f6ded530ee536810"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=7ce440aa1854bd10f6ded530ee536810^sys_idNOT INb8e440aaab54bd1007d56ad70fc9960b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>7ce440aa1854bd10f6ded530ee536810</id>
+        <name>Event Registration expired events</name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:01</sys_created_on>
+        <sys_id>b8e440aaab54bd1007d56ad70fc9960b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:01</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=b8e440aaab54bd1007d56ad70fc9960b"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=7ce440aa1854bd10f6ded530ee536810"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=7ce440aa1854bd10f6ded530ee536810"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7ce440aa1854bd10f6ded530ee536810"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=7ce440aa1854bd10f6ded530ee536810^sys_idNOT IN30e440aa3c54bd102591466dc1512d0c"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment>Run this flow daily in the early morning</comment>
+        <display_text/>
+        <flow display_value="Event Registration expired events">7ce440aa1854bd10f6ded530ee536810</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:01</sys_created_on>
+        <sys_id>30e440aa3c54bd102591466dc1512d0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:01</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=30e440aa3c54bd102591466dc1512d0c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>30e440aa3c54bd102591466dc1512d0c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:01</sys_created_on>
+        <sys_id>bce440aa4254bd10a22ebb5c013abb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:01</sys_updated_on>
+        <value>1970-01-01 02:00:00</value>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=30e440aa3c54bd102591466dc1512d0c"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=7ce440aa1854bd10f6ded530ee536810^sys_idNOT IN7ce440aa7954bd102eeaeba6faee780b,fce440aa6d54bd102c9376c87486c509"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Set the event state to expired</comment>
+        <display_text/>
+        <flow display_value="Event Registration expired events">7ce440aa1854bd10f6ded530ee536810</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>958d7c0a-a2ef-4341-aa6f-c9d7723d966d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:01</sys_created_on>
+        <sys_id>7ce440aa7954bd102eeaeba6faee780b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:01</sys_updated_on>
+        <ui_id>45ea2e05-2653-48bd-a59e-1094b592bbc4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7ce440aa7954bd102eeaeba6faee780b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7ce440aa7954bd102eeaeba6faee780b</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:01</sys_created_on>
+        <sys_id>38e440aaed54bd10459acc22f1b8bd0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:01</sys_updated_on>
+        <value>x_snc_marketing_0_event</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7ce440aa7954bd102eeaeba6faee780b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:01</sys_created_on>
+        <sys_id>b4e440aac054bd10996abc6d3cd49b09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:01</sys_updated_on>
+        <value>state=20</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7ce440aa7954bd102eeaeba6faee780b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>7ce440aa7954bd102eeaeba6faee780b</id>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:01</sys_created_on>
+        <sys_id>b0e440aa7e54bd1052b7f17e6768d40a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{958d7c0a-a2ef-4341-aa6f-c9d7723d966d.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7ce440aa7954bd102eeaeba6faee780b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7ce440aa7954bd102eeaeba6faee780b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment>Find the events that ended prior to when the flow executes</comment>
+        <display_text/>
+        <flow display_value="Event Registration expired events">7ce440aa1854bd10f6ded530ee536810</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:01</sys_created_on>
+        <sys_id>fce440aa6d54bd102c9376c87486c509</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:01</sys_updated_on>
+        <ui_id>0d0dd584-de1f-4b82-a1ac-05e00ae0d3e7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fce440aa6d54bd102c9376c87486c509"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fce440aa6d54bd102c9376c87486c509</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:01</sys_created_on>
+        <sys_id>3ce440aab554bd10487c57efd5137609</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:01</sys_updated_on>
+        <value>stateIN1,2^date_toRELATIVELT@minute@ago@1</value>
+        <variable display_value="Conditions">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fce440aa6d54bd102c9376c87486c509</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:01</sys_created_on>
+        <sys_id>78e440aafc54bd1039fb9f46cd28a609</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:01</sys_updated_on>
+        <value>x_snc_marketing_0_event</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b^id=fce440aa6d54bd102c9376c87486c509"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fce440aa6d54bd102c9376c87486c509"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fce440aa6d54bd102c9376c87486c509"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=7ce440aa1854bd10f6ded530ee536810^sys_idNOT INb8e440aa5d54bd10eb666bda53234908"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">70e440aa1954bd10d00bec1a07b0150b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Event Registration expired events">7ce440aa1854bd10f6ded530ee536810</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:01</sys_created_on>
+        <sys_id>b8e440aa5d54bd10eb666bda53234908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:01</sys_updated_on>
+        <ui_id>958d7c0a-a2ef-4341-aa6f-c9d7723d966d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b8e440aa5d54bd10eb666bda53234908"/>
+    <sys_element_mapping action="delete_multiple" query="id=b8e440aa5d54bd10eb666bda53234908"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>b8e440aa5d54bd10eb666bda53234908</id>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:01</sys_created_on>
+        <sys_id>f0e440aa6054bd1054ec469a7cef4709</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:01</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{0d0dd584-de1f-4b82-a1ac-05e00ae0d3e7.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b8e440aa5d54bd10eb666bda53234908"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b8e440aa5d54bd10eb666bda53234908"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=7ce440aa1854bd10f6ded530ee536810^sys_idNOT IN74e440aae954bd10a860f8618c0b410a"/>
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Event Registration expired events">7ce440aa1854bd10f6ded530ee536810</flow>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <order>4</order>
+        <parent_ui_id>958d7c0a-a2ef-4341-aa6f-c9d7723d966d</parent_ui_id>
+        <subflow display_value="Update Event Registration attendee records">f0e440aa7154bd104982e7156e459314</subflow>
+        <subflow_instance_inputs/>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:01</sys_created_on>
+        <sys_id>74e440aae954bd10a860f8618c0b410a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:01</sys_updated_on>
+        <ui_id>4db827e1-6ee6-4ca5-910f-4fadf40532e0</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=74e440aae954bd10a860f8618c0b410a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>74e440aae954bd10a860f8618c0b410a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:01</sys_created_on>
+        <sys_id>f4e440aacd54bd107a06e7d983853808</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:01</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait For Completion">30e440aaef54bd10ac841605f6fc6109</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=74e440aae954bd10a860f8618c0b410a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>event_record</field>
+        <id>74e440aae954bd10a860f8618c0b410a</id>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:01</sys_created_on>
+        <sys_id>7ce440aad954bd10f5ce60dc80c9be08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:01</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_f0e440aa7154bd104982e7156e459314</table>
+        <value>{{958d7c0a-a2ef-4341-aa6f-c9d7723d966d.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_sub_flow_instance_inputs_74e440aae954bd10a860f8618c0b410a^id=74e440aae954bd10a860f8618c0b410a"/>
+    <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=74e440aae954bd10a860f8618c0b410a^sys_idNOT IN30e440aaef54bd10ac841605f6fc6109"/>
+    <sys_hub_sub_flow_instance_inputs action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,fd_hide_inline_script_widget=true,uiType=boolean,uiTypeLabel=True/False</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wait_for_completion</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Wait For Completion</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="">74e440aae954bd10a860f8618c0b410a</model>
+        <model_id>f1eb77363c432010f877f65c5aad337b</model_id>
+        <model_table>sys_hub_flow_logic_ext_input</model_table>
+        <name>var__m_sys_hub_sub_flow_instance_inputs_74e440aae954bd10a860f8618c0b410a</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_sub_flow_instance_inputs</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:01</sys_created_on>
+        <sys_id>30e440aaef54bd10ac841605f6fc6109</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_sub_flow_instance_inputs>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=74e440aae954bd10a860f8618c0b410a"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=7ce440aa1854bd10f6ded530ee536810"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=7ce440aa1854bd10f6ded530ee536810"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_7ce440aa1854bd10f6ded530ee536810"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_7ce440aa1854bd10f6ded530ee536810"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_7ce440aa1854bd10f6ded530ee536810"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_7ce440aa1854bd10f6ded530ee536810"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>38e440aa7854bd10407cb63e10e3a30d</sys_id>
+        <latest_snapshot>7ce440aa1854bd10f6ded530ee536810</latest_snapshot>
+        <compiler_build>glide-xanadu-07-02-2024__patch4-11-22-2024_12-02-2024_1408.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=38e440aa7854bd10407cb63e10e3a30d^sys_idNOT IN34e440aa7c54bd1000eee667e7e1dd0b"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"34e440aa7c54bd1000eee667e7e1dd0b","name":"plan","plan_signature":null}}</plan>
+        <plan_id>38e440aa7854bd10407cb63e10e3a30d</plan_id>
+        <snapshot>1b0c6546471a52109d58558b416d43d6</snapshot>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>34e440aa7c54bd1000eee667e7e1dd0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:01</sys_updated_on>
+        <trigger display_value="">fce440aab054bd102389c5b14da73c0e</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=38e440aa7854bd10407cb63e10e3a30d"/>
+</record_update>

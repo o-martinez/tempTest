@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Comments and Work Notes" section_id="0ce400aa9b54bd103de7de3f0bd2fe0e" sys_domain="global" table="x_snc_marketing_0_event" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>0</position>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:19:05</sys_created_on>
+            <sys_id>77d4cc6ac654bd10182f65cd8dc81ef4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Comments and Work Notes" display_value="Comments and Work Notes" name="x_snc_marketing_0_event" sys_domain="global" view="06e7daec472112109d58558b416d4325">0ce400aa9b54bd103de7de3f0bd2fe0e</sys_ui_section>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:19:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>1</position>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:19:05</sys_created_on>
+            <sys_id>fbd4cc6a5d54bd10ac20a3ddbcdefdf4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Comments and Work Notes" display_value="Comments and Work Notes" name="x_snc_marketing_0_event" sys_domain="global" view="06e7daec472112109d58558b416d4325">0ce400aa9b54bd103de7de3f0bd2fe0e</sys_ui_section>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:19:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>2</position>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:19:05</sys_created_on>
+            <sys_id>3bd4cc6ad154bd10477851084d72bbf4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="">4ce400aaca54bd10c147d90b4f7ccb01</sys_ui_formatter>
+            <sys_ui_section caption="Comments and Work Notes" display_value="Comments and Work Notes" name="x_snc_marketing_0_event" sys_domain="global" view="06e7daec472112109d58558b416d4325">0ce400aa9b54bd103de7de3f0bd2fe0e</sys_ui_section>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:19:05</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Comments and Work Notes</caption>
+            <header>false</header>
+            <name>x_snc_marketing_0_event</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:19:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ce400aa9b54bd103de7de3f0bd2fe0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_marketing_0_event</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+            <sys_update_name>sys_ui_section_0ce400aa9b54bd103de7de3f0bd2fe0e</sys_update_name>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:19:05</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">06e7daec472112109d58558b416d4325</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

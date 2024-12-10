@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule_action">
+    <sys_sg_ui_rule_action action="INSERT_OR_UPDATE">
+        <client_script/>
+        <operation display_value="Set UI Style">1fc6ba105b431010da168d8fa881c7bb</operation>
+        <order/>
+        <sys_class_name>sys_sg_ui_rule_action</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:18:53</sys_created_on>
+        <sys_id>5ce400aa0154bd10848cefd732e7f257</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_sg_ui_rule_action_5ce400aa0154bd10848cefd732e7f257</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:18:53</sys_updated_on>
+        <target>text_26</target>
+        <ui_rule display_value="State is Processsing Request">d8e400aaa254bd10e4e09b57b333815c</ui_rule>
+        <value>{"TextDecorator": { "Type": "Font", "FontName": "now-mobile-icons-cards", "FontColor": "#0E78C4", "Value": "e902"}}</value>
+    </sys_sg_ui_rule_action>
+</record_update>

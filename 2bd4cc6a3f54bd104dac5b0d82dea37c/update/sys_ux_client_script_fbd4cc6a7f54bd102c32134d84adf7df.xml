@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Search results">bfd4cc6af154bd10bf11c4435bfd9cdf</macroponent>
+        <name>Search result clicked</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({
+    api,
+    event,
+    imports
+}) {
+    const ACTION_NAME = event.payload.action.actionDispatch;
+   if (ACTION_NAME !== 'NAVIGATION') return;
+    var table = event.payload.action.actionPayload.table;
+    var route = 'event_details'; 
+    const fields = {
+        "sysId": event.payload.action.actionPayload.sysId
+    };
+    api.emit('NAV_ITEM_SELECTED', {
+        route, fields
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:18:55</sys_created_on>
+        <sys_id>fbd4cc6a7f54bd102c32134d84adf7df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Search result clicked</sys_name>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_ux_client_script_fbd4cc6a7f54bd102c32134d84adf7df</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:18:55</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Register an Event">e0e400aa7b54bd105ab68fd3233538b6</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon/>
+        <label>Register</label>
+        <location>footer</location>
+        <name>Register an Event </name>
+        <order>10</order>
+        <parent>2ce400aa8454bd10d8b66b453a80e2ad</parent>
+        <parent_table>sys_sg_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:18:43</sys_created_on>
+        <sys_id>e0e400aa9054bd10b4b1ec5be72f71ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Register an Event</sys_name>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_sg_button_instance_e0e400aa9054bd10b4b1ec5be72f71ad</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:18:43</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=e0e400aa9054bd10b4b1ec5be72f71ad"/>
+</record_update>

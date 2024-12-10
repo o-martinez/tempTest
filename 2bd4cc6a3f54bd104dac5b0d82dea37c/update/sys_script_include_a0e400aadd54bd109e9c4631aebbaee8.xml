@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_marketing_0.EventRegistrationDTformat</api_name>
+        <caller_access>1</caller_access>
+        <client_callable>false</client_callable>
+        <description>Used in both the event registration workspace and portal to format a date/time string to a user friendly format</description>
+        <mobile_callable>false</mobile_callable>
+        <name>EventRegistrationDTformat</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var EventRegistrationDTformat = Class.create();
+EventRegistrationDTformat.prototype = {
+    initialize: function() {},
+	//Pass in the date/time string to the function
+   formatDateTime: function(DatetimeValue) {
+        //Use GlideDateTime to separate the values to be formatted
+        var gdt = new GlideDateTime(DatetimeValue);
+        var dt = new GlideDateTime(gdt.getDisplayValueInternal());
+
+        // Get the translated friendly date
+        var date = dt.getDate();
+        var dateFormated = date.getByFormat('MMM dd, yyy');
+
+        // Get the friendly time format
+        var time = dt.getTime();
+        var timeFormated = (time.getByFormat('hh:mm a'));
+
+        //Build the user friendly format to be returned
+        var msgArr = [dateFormated, timeFormated];
+        var results = gs.getMessage('{0} at {1}', msgArr);
+        return results;
+
+    },
+    type: 'EventRegistrationDTformat'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:25</sys_created_on>
+        <sys_id>a0e400aadd54bd109e9c4631aebbaee8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EventRegistrationDTformat</sys_name>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_script_include_a0e400aadd54bd109e9c4631aebbaee8</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:25</sys_updated_on>
+    </sys_script_include>
+</record_update>

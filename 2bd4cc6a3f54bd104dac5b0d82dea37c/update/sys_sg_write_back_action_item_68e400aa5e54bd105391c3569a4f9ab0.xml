@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script><![CDATA[(function WriteBackAction(input) {
+	//Type appropriate comment here, and begin script below
+	var current = new GlideRecord('x_snc_marketing_0_event');
+	if(current.get(input.sys_id)){
+		current.state = '10';
+		current.work_notes = gs.getMessage('Event cancelled by {0}', gs.getUser().getDisplayName());
+		current.update();
+	}
+
+
+})(input);]]></execution_script>
+        <name>Cancel Event</name>
+        <parameter_screen/>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:18:39</sys_created_on>
+        <sys_id>68e400aa5e54bd105391c3569a4f9ab0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cancel Event</sys_name>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_68e400aa5e54bd105391c3569a4f9ab0</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:18:39</sys_updated_on>
+        <table>x_snc_marketing_0_event</table>
+        <template/>
+        <type>script</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=68e400aa5e54bd105391c3569a4f9ab0"/>
+</record_update>

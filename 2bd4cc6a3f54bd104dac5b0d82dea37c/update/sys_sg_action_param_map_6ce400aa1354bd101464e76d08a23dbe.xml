@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Edit">68e400aae454bd105457c16353ba61bf</button>
+        <item_parameter display_value="Event Waitlist size">a0e400aa7254bd10493afa6a491953c0</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:18:32</sys_created_on>
+        <sys_id>6ce400aa1354bd101464e76d08a23dbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a0e400aa7254bd10493afa6a491953c0</sys_name>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_6ce400aa1354bd101464e76d08a23dbe</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:18:32</sys_updated_on>
+        <ui_parameter display_value="Waitlist size">ace400aa9e54bd1078ddba2607e9dcc0</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

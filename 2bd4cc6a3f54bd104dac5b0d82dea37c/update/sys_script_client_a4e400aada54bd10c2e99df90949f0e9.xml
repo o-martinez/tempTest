@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Used for the  workspace view to provide a clean record view without duplicate comments and worknotes sections.</description>
+        <field>comments</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Hide logs section for workspace</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   g_form.setSectionDisplay('comments_andworknotes', false);
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:18:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a4e400aada54bd10c2e99df90949f0e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hide logs section for workspace</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_script_client_a4e400aada54bd10c2e99df90949f0e9</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:18:47</sys_updated_on>
+        <table>x_snc_marketing_0_event_location</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view>workspace</view>
+    </sys_script_client>
+</record_update>

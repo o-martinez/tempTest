@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>Edit Event</name>
+        <parameter_screen/>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:45</sys_created_on>
+        <sys_id>a4e400aa3354bd1087da3e7ca56c67b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit Event</sys_name>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_a4e400aa3354bd1087da3e7ca56c67b0</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:45</sys_updated_on>
+        <table>x_snc_marketing_0_event</table>
+        <template>date_from={{Event Starts}}^capacity={{Event Capacity}}^date_to={{Event Ends}}^location={{Event Location}}^event_name={{Event Name}}^purpose={{Event Purpose}}^waitlist_size={{Event Waitlist size}}^event_reminder_date={{Event reminder date}}^EQ</template>
+        <type>update</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=a4e400aa3354bd1087da3e7ca56c67b0"/>
+</record_update>

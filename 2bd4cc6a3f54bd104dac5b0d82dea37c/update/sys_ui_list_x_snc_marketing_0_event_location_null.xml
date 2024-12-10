@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_marketing_0_event_location" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_snc_marketing_0_event_location" element="NULL" name="x_snc_marketing_0_event_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">80e400aa4a54bd1042277c6bdf5b3c09</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:18:40</sys_created_on>
+            <sys_id>c0e400aaed54bd103f7f7aaf342f8308</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:18:40</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>address</element>
+            <list_id display_value="x_snc_marketing_0_event_location" element="NULL" name="x_snc_marketing_0_event_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">80e400aa4a54bd1042277c6bdf5b3c09</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:18:40</sys_created_on>
+            <sys_id>0ce400aaf554bd10d4b1a9587d247408</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:18:40</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>capacity</element>
+            <list_id display_value="x_snc_marketing_0_event_location" element="NULL" name="x_snc_marketing_0_event_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">80e400aa4a54bd1042277c6bdf5b3c09</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:18:40</sys_created_on>
+            <sys_id>c8e400aad054bd100c89cea1bb867f06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:18:40</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>comments</element>
+            <list_id display_value="x_snc_marketing_0_event_location" element="NULL" name="x_snc_marketing_0_event_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">80e400aa4a54bd1042277c6bdf5b3c09</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:18:40</sys_created_on>
+            <sys_id>04e400aa4e54bd10bcb1414c2e0f3007</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:18:40</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>description</element>
+            <list_id display_value="x_snc_marketing_0_event_location" element="NULL" name="x_snc_marketing_0_event_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">80e400aa4a54bd1042277c6bdf5b3c09</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:18:40</sys_created_on>
+            <sys_id>44e400aa1354bd102bd95df18e4dcd06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:18:40</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>status</element>
+            <list_id display_value="x_snc_marketing_0_event_location" element="NULL" name="x_snc_marketing_0_event_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">80e400aa4a54bd1042277c6bdf5b3c09</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:18:40</sys_created_on>
+            <sys_id>88e400aa6254bd10427075cf9f9b3d07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:18:40</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>worknotes</element>
+            <list_id display_value="x_snc_marketing_0_event_location" element="NULL" name="x_snc_marketing_0_event_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">80e400aa4a54bd1042277c6bdf5b3c09</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:18:40</sys_created_on>
+            <sys_id>8ce400aa5854bd102647b3154f30e706</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:18:40</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_marketing_0_event_location</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:18:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>80e400aa4a54bd1042277c6bdf5b3c09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_marketing_0_event_location</sys_name>
+            <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_marketing_0_event_location_null</sys_update_name>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:18:40</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

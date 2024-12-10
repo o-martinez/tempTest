@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_mapping">
+    <sys_declarative_action_payload_mapping action="INSERT_OR_UPDATE">
+        <action_payload_definition display_value="Create New Event Location Record">89e440aacc54bd10027d98d4c0a39188</action_payload_definition>
+        <label>Create New Record List</label>
+        <model display_value="List">c3547169534723003eddddeeff7b126c</model>
+        <payload_map>parent_table={{parentTable}}^params@query={{query}}^route=record^additional_data@query={{query}}^fields@sysId=-1^fields@table={{table}}^EQ</payload_map>
+        <required_translations/>
+        <sys_class_name>sys_declarative_action_payload_mapping</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:32</sys_created_on>
+        <sys_id>05e440aa9954bd10d02c9a9082817f85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New Record List</sys_name>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_mapping_05e440aa9954bd10d02c9a9082817f85</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:32</sys_updated_on>
+    </sys_declarative_action_payload_mapping>
+</record_update>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_context_config">
+    <sys_search_context_config action="INSERT_OR_UPDATE">
+        <collapse_attachment>false</collapse_attachment>
+        <document_match_count/>
+        <document_match_threshold/>
+        <enable_exact_match>false</enable_exact_match>
+        <enable_semantic_search>false</enable_semantic_search>
+        <evam_definition/>
+        <genius_results_limit>1</genius_results_limit>
+        <hit_highlighting>false</hit_highlighting>
+        <log_signals_server_side>false</log_signals_server_side>
+        <name>Event Registration Search App</name>
+        <search_engine>ai_search</search_engine>
+        <search_profile display_value="Event Registration Profile">11e440aac354bd1000893049f2cacfb5</search_profile>
+        <search_results_limit>10</search_results_limit>
+        <semantic_groupby/>
+        <semantic_search_mode/>
+        <semantic_type/>
+        <show_tab_counts>false</show_tab_counts>
+        <spell_check>true</spell_check>
+        <suggestions_to_show_limit>10</suggestions_to_show_limit>
+        <sys_class_name>sys_search_context_config</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:47</sys_created_on>
+        <sys_id>ece400aa9154bd100b1b2bb4251015e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event Registration Search App</sys_name>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_search_context_config_ece400aa9154bd100b1b2bb4251015e6</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:47</sys_updated_on>
+        <ts_index_group/>
+        <view/>
+    </sys_search_context_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=ece400aa9154bd100b1b2bb4251015e6"/>
+</record_update>

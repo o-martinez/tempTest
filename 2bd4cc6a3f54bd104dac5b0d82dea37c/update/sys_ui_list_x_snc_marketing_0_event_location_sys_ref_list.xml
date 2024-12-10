@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_marketing_0_event_location" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_snc_marketing_0_event_location" element="NULL" name="x_snc_marketing_0_event_location" parent="NULL" relationship="NULL" sys_domain="global" view="75469260472112109d58558b416d433e">c4e400aa0054bd10fac78885f17c5607</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:19:56</sys_created_on>
+            <sys_id>08e400aaeb54bd10273b82395b7c5b06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:19:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>status</element>
+            <list_id display_value="x_snc_marketing_0_event_location" element="NULL" name="x_snc_marketing_0_event_location" parent="NULL" relationship="NULL" sys_domain="global" view="75469260472112109d58558b416d433e">c4e400aa0054bd10fac78885f17c5607</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:19:56</sys_created_on>
+            <sys_id>40e400aab754bd101a4525dea1d00807</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:19:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>capacity</element>
+            <list_id display_value="x_snc_marketing_0_event_location" element="NULL" name="x_snc_marketing_0_event_location" parent="NULL" relationship="NULL" sys_domain="global" view="75469260472112109d58558b416d433e">c4e400aa0054bd10fac78885f17c5607</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:19:56</sys_created_on>
+            <sys_id>80e400aa9a54bd100cb3c73dfc3fd506</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:19:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_marketing_0_event_location</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>mary.humble</sys_created_by>
+            <sys_created_on>2023-07-30 13:19:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c4e400aa0054bd10fac78885f17c5607</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_marketing_0_event_location</sys_name>
+            <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_marketing_0_event_location_sys_ref_list</sys_update_name>
+            <sys_updated_by>mary.humble</sys_updated_by>
+            <sys_updated_on>2023-07-30 13:19:56</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">75469260472112109d58558b416d433e</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

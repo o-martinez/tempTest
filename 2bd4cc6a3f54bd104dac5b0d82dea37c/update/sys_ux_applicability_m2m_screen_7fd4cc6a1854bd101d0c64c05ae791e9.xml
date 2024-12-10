@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Event Registration Attendees">3bd4cc6aec54bd108fd294c84932c0ee</applicability>
+        <order>0</order>
+        <screen display_value="home default">44e400aa6e54bd109eaa1d6f4ef36a17</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>mary.humble</sys_created_by>
+        <sys_created_on>2023-07-30 13:19:02</sys_created_on>
+        <sys_id>7fd4cc6a1854bd101d0c64c05ae791e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Marketing Event Management" source="x_snc_marketing_0">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Event Management">2bd4cc6a3f54bd104dac5b0d82dea37c</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_7fd4cc6a1854bd101d0c64c05ae791e9</sys_update_name>
+        <sys_updated_by>mary.humble</sys_updated_by>
+        <sys_updated_on>2023-07-30 13:19:02</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+</record_update>
